@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <style>
+        body {
+            text-align: center;
+
+        }
+        strong {
+            text-align: center;
+            /* background-color: azure; */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+        }
+
+    </style>
+</head>
+<body>
+
+{% if result %}
+<strong >Result: This is a FRAUD transaction</strong>
+{% else %} 
+<strong >Result: This is a NOT FRAUD transaction</strong>
+{% endif %} 
+
+
+    
+</body>
+</html>
